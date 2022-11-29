@@ -16,6 +16,36 @@ h1 {
     font-size: 70px;
 }
 
+form {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#number {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #ffd166;
+    background-color: #1389b2;
+    border-radius: 5px;
+}
+
+#button {
+    margin-top: 40px;
+    padding: 10px 30px;
+    background-color: #ffd166;
+    border: 3px solid #f0466f;
+    border-radius: 5px;
+}
+
+#button:active {
+    background-color: #f0466f;
+    border-color: #ffd166;
+}
+
+.none {
+    display: none;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;

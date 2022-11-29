@@ -6,7 +6,7 @@ button.addEventListener('click', function(){
     
     let number = document.getElementById('number').value;
 
-    var element = document.getElementById("form");
+    let element = document.getElementById("form");
     element.classList.add("none");
     
     for(let i = 1; i<=number; i++){

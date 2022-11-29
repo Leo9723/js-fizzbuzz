@@ -1,6 +1,8 @@
 let container = document.getElementById('container')
 
-for(let i = 1; i<=100; i++){
+let number = prompt('inserisci un numero')
+
+for(let i = 1; i<=number; i++){
     let element = i
 
     if(i%3 == 0 && i%5 != 0){
